@@ -6,6 +6,6 @@ This repository will build [https://r2r-docs.sciphi.ai/self-hosting/installation
 
 ## Build and run postgres with pgvector
 
-````bash
+```bash
 sudo docker compose up
 ```
