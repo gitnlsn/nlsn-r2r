@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  pgvector-db:
+    build: .
+    ports:
+      - "5433:5432"
+    volumes:
+      - .:/app # Mount the current directory to /app in the container for development (optional)
