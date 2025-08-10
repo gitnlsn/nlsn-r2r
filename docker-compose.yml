@@ -5,5 +5,6 @@ services:
     build: .
     ports:
       - "5433:5432"
+      - "7272:7272"
     volumes:
       - .:/app # Mount the current directory to /app in the container for development (optional)
